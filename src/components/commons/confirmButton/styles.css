@@ -1,0 +1,9 @@
+.confirmButton-container {
+    @apply
+    bg-blue-400
+    text-white
+    rounded-full
+    w-96
+    h-14
+    text-2xl
+}
