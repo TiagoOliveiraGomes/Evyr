@@ -1,12 +1,12 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { ConfirmButton } from './'
+import { ConfirmButton, ConfirmButtonProps } from './'
 
 export default {
     title: 'Components/BUTTONS/ConfirmButton',
     component: ConfirmButton,
     args: {
-        text: 'Iniciar'
+        text: 'Iniciar',
     }
-} as Meta
+} as Meta<ConfirmButtonProps>
 
-export const Default: StoryObj = {}
+export const Default: StoryObj<ConfirmButtonProps> = {}
