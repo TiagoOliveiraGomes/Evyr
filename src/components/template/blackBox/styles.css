@@ -1,0 +1,8 @@
+.BlackBox-Container {
+    @apply
+    py-20
+    px-24
+    rounded-3xl
+    bg-opacity-30
+    bg-black
+}

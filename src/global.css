@@ -5,3 +5,10 @@
 * {
     font-family: 'Delius', cursive;
 }
+
+.App {
+    @apply
+    h-[100vh]
+    w-full
+    bg-green-400
+}

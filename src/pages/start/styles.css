@@ -1,0 +1,13 @@
+.StartPage-Container {
+    @apply
+    h-full
+    w-full
+    bg-[url('../../assets/imgs/AlteredUnderwater.png')]
+    bg-center
+    object-cover
+    bg-cover
+    bg-no-repeat
+    flex
+    justify-center
+    items-center
+}
