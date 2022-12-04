@@ -10,6 +10,6 @@ export function ConfirmButton(props: ConfirmButtonProps) {
     const { color, children } = props
 
   return (
-    <button className={`confirmButton-container ${color || 'bg-blue-400'}`}>{children}</button>
+    <button className={`confirmButton-container ${color || 'bg-PrimaryBtn-500'}`}>{children}</button>
   )
 }
