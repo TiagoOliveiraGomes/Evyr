@@ -1,15 +1,15 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 import './styles.css'
 
 export interface ConfirmButtonProps {
     color?: string,
-    text: string,
+    children: ReactNode,
 }
 
 export function ConfirmButton(props: ConfirmButtonProps) {
-    const { color, text } = props
+    const { color, children } = props
 
   return (
-    <button className={`confirmButton-container ${color || 'bg-blue-400'}`}>{text}</button>
+    <button className={`confirmButton-container ${color || 'bg-blue-400'}`}>{children}</button>
   )
 }
