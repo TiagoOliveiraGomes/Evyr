@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react'
 import './styles.css'
 
-interface BlackBoxProps {
+export interface BlackBoxProps {
     children: ReactNode
 }
 

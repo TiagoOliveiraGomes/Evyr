@@ -5,7 +5,7 @@ export default {
     title: 'Components/BUTTONS/ConfirmButton',
     component: ConfirmButton,
     args: {
-        text: 'Iniciar',
+        children: 'Iniciar',
     }
 } as Meta<ConfirmButtonProps>
 
