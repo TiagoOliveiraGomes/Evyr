@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { ConfirmButton } from './components/commons/confirmButton'
+import { Map } from './pages/map'
 import { StartPage } from './pages/start'
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
 
   return (
     <div className="App">
-     <StartPage />
+     <Map />
+     {/* <StartPage /> */}
     </div>
   )
 }

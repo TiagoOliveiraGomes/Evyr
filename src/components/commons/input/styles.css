@@ -10,5 +10,7 @@
     text-white
     bg-PrimaryBtn-200
     border-PrimaryBtn-200
-    placeholder:text-slate-300
+    placeholder:text-slate-400
+    focus:bg-opacity-30
+    outline-none
 }

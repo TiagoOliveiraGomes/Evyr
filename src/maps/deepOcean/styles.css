@@ -1,0 +1,11 @@
+.DeepOcean-Container {
+    @apply
+    flex
+    w-full
+    h-full
+    bg-cover
+    bg-center
+    bg-[url('../../assets/imgs/AlteredUnderwater.png')]
+    items-center
+    justify-center
+}

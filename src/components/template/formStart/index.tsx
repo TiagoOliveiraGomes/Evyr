@@ -1,15 +1,13 @@
-import { Meta, StoryObj } from '@storybook/react'
+import { CaretDown } from 'phosphor-react'
+import React, { ReactNode } from 'react'
 import { FlagBrasil } from '../../../assets/imgs/flags/brasil'
 import { ConfirmButton } from '../../commons/confirmButton'
 import { Input } from '../../commons/input'
-import { BlackBox, BlackBoxProps } from './'
-import { CaretDown } from 'phosphor-react'
+import './styles.css'
 
-export default {
-    title: 'Components/TEMPLATE/BlackBox',
-    component: BlackBox,
-    args: {
-        children: (
+export function FormStart() {
+  return (
+    <form className='BlackBox-Container'>
         <div className='flex flex-col justify-center items-center gap-14'>
           <div className='flex gap-5 items-center'>
               <Input placeholder='Ex: Joãozin' />
@@ -20,8 +18,6 @@ export default {
           </div>
           <ConfirmButton>Iniciar</ConfirmButton>
         </div>
-        ) 
-    }
-} as Meta<BlackBoxProps>
-
-export const Default: StoryObj<BlackBoxProps> = {}
+    </form>
+  )
+}
