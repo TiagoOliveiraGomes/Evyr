@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { ConfirmButton, ConfirmButtonProps } from './'
 
 export default {
-    title: 'Components/BUTTONS/ConfirmButton',
+    title: 'Components/COMMONS/Buttons/ConfirmButton',
     component: ConfirmButton,
     args: {
         children: 'Iniciar',

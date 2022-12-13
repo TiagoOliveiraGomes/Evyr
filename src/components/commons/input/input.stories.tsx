@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { Input, InputProps } from './'
 
 export default {
-    title: 'Components/INPUTS/Name',
+    title: 'Components/COMMONS/INPUTS/Name',
     component: Input,
     args: {
         placeholder: 'Ex: Joãozin',

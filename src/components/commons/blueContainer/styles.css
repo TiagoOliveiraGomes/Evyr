@@ -1,0 +1,22 @@
+.BlueContainer-Container {
+    @apply
+    flex
+    flex-col
+    border
+    rounded
+    bg-opacity-40
+    items-center
+    justify-center
+    bg-Container-DeepBlue
+    border-PrimaryBtn-200
+    shadow-lg
+}
+
+.BlueContainer-Container header {
+    @apply
+    flex
+    py-3
+    w-full
+    justify-center
+    bg-PrimaryBtn-200
+}
