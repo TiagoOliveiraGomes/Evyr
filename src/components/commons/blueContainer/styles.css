@@ -31,6 +31,14 @@
 .BlueContainer-Container main ul li {
     @apply
     py-2
-    px-20
-    bg-selected-gradient
+    px-32
+}
+
+.BlueContainer-Container footer {
+    @apply
+    flex
+    w-full
+    justify-between
+    px-16
+    py-7
 }
