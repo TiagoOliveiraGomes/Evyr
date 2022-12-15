@@ -1,19 +1,19 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 import { ListPartsToEvolve } from '../../template/listPartsToEvolve'
 import './styles.css'
 
 export interface BlueContainerProps {
-    selected: boolean,
+    children: ReactNode
 }
-export function BlueContainer(props: BlueContainerProps) {
-    const { selected } = props
+export function BlueContainer({children}: BlueContainerProps) {
+    
   return (
     <div className='BlueContainer-Container'>
         <header>
             Header
         </header>
         <main>
-            <ListPartsToEvolve selected />
+            {children}
         </main>
         <footer>
             <h3>Press Z to select</h3>
