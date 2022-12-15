@@ -12,8 +12,12 @@ export function BlueContainer({children}: BlueContainerProps) {
         <header>
             Header
         </header>
-        <main>
-            {children}
+        <main className='BlueContainer-content'>
+            {/* {children} */}
+            <header>
+                <h1>Head</h1>
+                <h3>Salmon Mouth</h3>
+            </header>
         </main>
         <footer>
             <h3>Press Z to select</h3>

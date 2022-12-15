@@ -15,7 +15,7 @@
     p-0
 }
 
-.BlueContainer-Container header {
+.BlueContainer-Container > header {
     @apply
     flex
     py-3
@@ -25,12 +25,27 @@
     text-black
     flex-grow-0
 }
+.BlueContainer-content > header {
+    @apply
+    flex
+    flex-col
+    justify-start
+    items-center
+    py-5
+}
+.BlueContainer-content > header > h1 {
+    @apply
+    font-bold
+}
+.BlueContainer-content > header > h3 {
+    @apply
+    text-sm
+}
 
-.BlueContainer-Container main {
+.BlueContainer-Container main ul {
     @apply
     py-16
 }
-
 .BlueContainer-Container main ul li {
     @apply
     flex
@@ -45,6 +60,6 @@
     w-full
     justify-between
     px-16
-    py-7
+    py-4
     gap-x-24
 }
