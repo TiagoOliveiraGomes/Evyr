@@ -1,4 +1,5 @@
 import React from 'react'
+import { ListPartsToEvolve } from '../../template/listPartsToEvolve'
 import './styles.css'
 
 export interface BlueContainerProps {
@@ -9,24 +10,10 @@ export function BlueContainer(props: BlueContainerProps) {
   return (
     <div className='BlueContainer-Container'>
         <header>
-            Escolha sua evolução
+            Header
         </header>
         <main>
-            <ul>
-                <li className={`${selected? 'bg-gradient-to-r from-transparent via-[#2f6ebab7]' : 'bg-transparent'}`}>
-                    <h3>Cabeça</h3>
-                </li> 
-                {/* TODO: Colocarr um estado Select em todos os 'FALSE' */}
-                <li className={`${false? 'bg-gradient-to-r from-transparent via-[#2f6ebab7]' : 'bg-transparent'}`}>
-                    <h3>Corpo</h3>
-                </li>
-                <li className={`${false? 'bg-gradient-to-r from-transparent via-[#2f6ebab7]' : 'bg-transparent'}`}>
-                    <h3>Cauda</h3>
-                </li>
-                <li className={`${false? 'bg-gradient-to-r from-transparent via-[#2f6ebab7]' : 'bg-transparent'}`}>
-                    <h3>Arma</h3>
-                </li>
-            </ul>
+            <ListPartsToEvolve selected />
         </main>
         <footer>
             <h3>Press Z to select</h3>
