@@ -1,9 +1,22 @@
 .swiper {
     @apply
     w-[800px]
-    h-10
+    h-60
 }
 .swiper-slide {
     @apply
     text-center
+    flex
+    justify-center
+    items-center
+}
+
+.swiper-button-next {
+    @apply
+    text-PrimaryBtn-200
+    bg-[url("../../../assets/CaretCircleRight.svg")]
+}
+.swiper-button-prev {
+    @apply
+    text-PrimaryBtn-200
 }

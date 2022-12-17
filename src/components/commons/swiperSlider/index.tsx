@@ -1,22 +1,20 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Keyboard, Pagination, Navigation} from 'swiper'
 import "swiper/css"
 import "swiper/css/pagination"
 import "swiper/css/navigation"
 
 import "./styles.css"
-
-
+import { Keyboard, Pagination, Navigation} from 'swiper'
 
 export function SwiperSlider() {
   return (
     <Swiper
         slidesPerView={1}
         spaceBetween={30}
-        keyboard={{enabled: true}}
+        keyboard={true}
         navigation={true}
-        pagination={{clickable: true}}
+        pagination={{clickable: false}}
         modules={[Keyboard, Pagination, Navigation]}
     >
         <SwiperSlide>Slide 1</SwiperSlide>
