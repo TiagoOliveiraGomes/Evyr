@@ -14,9 +14,29 @@
 .swiper-button-next {
     @apply
     text-PrimaryBtn-200
-    bg-[url("../../../assets/CaretCircleRight.svg")]
+    bg-[url('../../../assets/imgs/arrowCircle.svg')]
+    bg-center
+    bg-contain
+    bg-no-repeat
+    w-12
 }
 .swiper-button-prev {
     @apply
     text-PrimaryBtn-200
+    bg-[url('../../../assets/imgs/arrowCircle.svg')]
+    bg-center
+    bg-contain
+    bg-no-repeat
+    w-12
+    rotate-180
+
 }
+.swiper-button-next::after {
+    @apply
+    hidden
+}
+.swiper-button-prev::after {
+    @apply
+    hidden
+}
+  
