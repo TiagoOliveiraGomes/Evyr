@@ -1,0 +1,9 @@
+.swiper {
+    @apply
+    w-[800px]
+    h-10
+}
+.swiper-slide {
+    @apply
+    text-center
+}

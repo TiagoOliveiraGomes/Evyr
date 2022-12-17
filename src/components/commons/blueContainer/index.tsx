@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react'
 import { ListPartsToEvolve } from '../../template/listPartsToEvolve'
+import { SwiperSlider } from '../swiperSlider'
 import './styles.css'
 
 export interface BlueContainerProps {
@@ -18,6 +19,9 @@ export function BlueContainer({children}: BlueContainerProps) {
                 <h1>Head</h1>
                 <h3>Salmon Mouth</h3>
             </header>
+            <main>
+                <SwiperSlider />
+            </main>
         </main>
         <footer>
             <h3>Press Z to select</h3>
