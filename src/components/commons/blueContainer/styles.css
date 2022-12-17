@@ -24,6 +24,7 @@
     bg-PrimaryBtn-200
     text-black
     flex-grow-0
+    font-bold
 }
 .BlueContainer-content > header {
     @apply

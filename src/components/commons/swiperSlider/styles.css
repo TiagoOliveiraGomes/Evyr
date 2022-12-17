@@ -39,4 +39,12 @@
     @apply
     hidden
 }
-  
+
+.swiper-pagination-bullet {
+    @apply
+    bg-PrimaryBtn-500
+}
+.swiper-pagination-bullet-active {
+    @apply
+    bg-PrimaryBtn-500
+}
