@@ -12,7 +12,7 @@ export function BlueContainer({children}: BlueContainerProps) {
   return (
     <div className='BlueContainer-Container'>
         <header>
-            Header
+            Choose To Evolve
         </header>
         <main className='BlueContainer-content'>
             {/* {children} */}
