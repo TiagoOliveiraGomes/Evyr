@@ -14,21 +14,23 @@
 .swiper-button-next {
     @apply
     text-PrimaryBtn-200
-    bg-[url('../../../assets/imgs/arrowCircle.svg')]
+    bg-[url('../../../assets/imgs/icons/arrowCircle.svg')]
     bg-center
     bg-contain
     bg-no-repeat
     w-12
+    mx-20
 }
 .swiper-button-prev {
     @apply
     text-PrimaryBtn-200
-    bg-[url('../../../assets/imgs/arrowCircle.svg')]
+    bg-[url('../../../assets/imgs/icons/arrowCircle.svg')]
     bg-center
     bg-contain
     bg-no-repeat
     w-12
     rotate-180
+    mx-20
 
 }
 .swiper-button-next::after {

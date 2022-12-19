@@ -1,0 +1,13 @@
+.PointsOfCostAndUpgrade-Container {
+    @apply
+    flex
+    justify-between
+    px-52
+}
+
+.PointsOfCostAndUpgrade-Container header .icon {
+    @apply
+    flex
+    gap-2
+    text-green-500
+}

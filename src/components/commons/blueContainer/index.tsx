@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react'
 import { ListPartsToEvolve } from '../../template/listPartsToEvolve'
+import { PointsOfCostAndUpgrade } from '../../template/points_Cost_&_Upgrade'
 import { SwiperSlider } from '../swiperSlider'
 import './styles.css'
 
@@ -21,6 +22,7 @@ export function BlueContainer({children}: BlueContainerProps) {
             </header>
             <main>
                 <SwiperSlider />
+                <PointsOfCostAndUpgrade />
             </main>
         </main>
         <footer>
