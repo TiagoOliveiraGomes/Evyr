@@ -59,10 +59,10 @@
     @apply
     flex
     w-full
-    justify-between
-    px-16
+    justify-center
+    /* px-36 */
     py-4
-    gap-x-24
+    gap-x-52
     text-sm
     text-slate-300
 }
