@@ -23,7 +23,8 @@
     justify-center
     bg-PrimaryBtn-200
     text-black
-    font-bold
+    font-black
+    text-lg
 }
 .BlueContainer-content > header {
     @apply

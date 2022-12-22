@@ -6,6 +6,7 @@ import "swiper/css/navigation"
 
 import "./styles.css"
 import { Keyboard, Pagination, Navigation} from 'swiper'
+import { Player } from '../../player'
 
 export function SwiperSlider() {
   return (
@@ -17,7 +18,9 @@ export function SwiperSlider() {
         pagination={{clickable: false}}
         modules={[Keyboard, Pagination, Navigation]}
     >
-        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>
+          <Player />
+        </SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>

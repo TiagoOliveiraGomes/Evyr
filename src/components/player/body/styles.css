@@ -1,0 +1,12 @@
+.BodyPlayer-Container > .sprite {
+    @apply
+    flex
+    justify-center
+    py-3
+}
+
+.BodyPlayer-Container > .sprite img {
+    @apply
+    w-11
+    h-7
+}
