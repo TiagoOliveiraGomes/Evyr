@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.bodyParts {
+    image-rendering: pixelated;
+}
+
 * {
     font-family: 'Delius', cursive;
 }

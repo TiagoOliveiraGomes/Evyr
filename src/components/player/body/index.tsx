@@ -17,8 +17,12 @@ export function BodyPlayer(props: BodyPlayerProps) {
             name: {name}
         </h3>
       <div className='sprite'>
-        <img className='h-[18px]' src={body1} alt="" />
-        <img className='h-[14px]' src={head1} alt="" />
+        <img 
+        className='bodyParts' 
+        src={body1} alt="" />
+        <img 
+        className='bodyParts' 
+        src={head1} alt="" />
       </div>
     </div>
   )
