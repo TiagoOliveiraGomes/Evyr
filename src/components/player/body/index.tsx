@@ -13,9 +13,6 @@ export function BodyPlayer(props: BodyPlayerProps) {
     const { body, mouth, name} = props
   return (
     <div className='BodyPlayer-Container'>
-        <h3 className='whitespace-pre-wrap text-white'>
-            name: {name}
-        </h3>
       <div className='sprite'>
         <img 
         className='bodyParts' 
