@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.css'
-import body1 from '../../../assets/imgs/player/bodies/body1.png'
+import body1 from '../../../assets/imgs/player/bodies/body2.png'
 import head1 from '../../../assets/imgs/player/heads/head_base.png'
 
 interface BodyPlayerProps {
@@ -14,7 +14,7 @@ export function BodyPlayer(props: BodyPlayerProps) {
   return (
     <div className='BodyPlayer-Container'>
       <div className='sprite'>
-        <img 
+        <img
         className='bodyParts' 
         src={body1} alt="" />
         <img 
