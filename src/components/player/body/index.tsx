@@ -15,7 +15,7 @@ export function BodyPlayer(props: BodyPlayerProps) {
     <div className='BodyPlayer-Container'>
       <div className='sprite'>
         <img
-        className='bodyParts' 
+        className='bodyParts translate-x-[0.05px]' 
         src={body1} alt="" />
         <img 
         className='bodyParts' 
