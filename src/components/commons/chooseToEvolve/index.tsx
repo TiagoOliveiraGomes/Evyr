@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react'
 import { ListPartsToEvolve } from '../../template/listPartsToEvolve'
+import { PartsViewCarousel } from '../../template/partsViewCarousel'
 import { PointsOfCostAndUpgrade } from '../../template/points_Cost_&_Upgrade'
 import { SwiperSlider } from '../swiperSlider'
 import './styles.css'
@@ -7,25 +8,18 @@ import './styles.css'
 export interface BlueContainerProps {
     children: ReactNode
 }
-export function BlueContainer({children}: BlueContainerProps) {
+export function ChooseToEvolve({children}: BlueContainerProps) {
     
   return (
-    <div className='BlueContainer-Container'>
+    <div className='ChooseToEvolve-Container'>
         <header>
             <h1>
                 Choose To Evolve
             </h1>
         </header>
-        <main className='BlueContainer-content'>
+        <main className='ChooseToEvolve-content'>
             {/* {children} */}
-            <header>
-                <h1>Head</h1>
-                <h3>Salmon Mouth</h3>
-            </header>
-            <main>
-                <SwiperSlider />
-                <PointsOfCostAndUpgrade />
-            </main>
+            <PartsViewCarousel />
         </main>
         <footer>
             <h3>Press Z to select</h3>

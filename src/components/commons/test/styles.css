@@ -1,0 +1,19 @@
+.testContainer{
+    @apply
+    flex
+    flex-col
+    w-96
+    h-96
+    bg-green-500
+    items-center
+    border-2
+    border-red-900
+}
+.testContainer > header {
+    @apply
+    flex
+    py-2
+    bg-green-700
+    justify-center
+    w-full
+}

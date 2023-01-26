@@ -1,5 +1,6 @@
 import React from 'react'
-import { BlueContainer } from '../../components/commons/blueContainer'
+import { ChooseToEvolve } from '../../components/commons/chooseToEvolve'
+import Test from '../../components/commons/test'
 import { Player } from '../../components/player'
 import { ListPartsToEvolve } from '../../components/template/listPartsToEvolve'
 import './styles.css'
@@ -8,9 +9,12 @@ export function DeepOcean() {
   return (
     <div className='DeepOcean-Container'>
       {/* <Player /> */}
-      <BlueContainer>
+
+      {/* <Test /> */}
+      
+      <ChooseToEvolve>
         <ListPartsToEvolve selected />
-      </BlueContainer>
+      </ChooseToEvolve>
     </div>
   )
 }
